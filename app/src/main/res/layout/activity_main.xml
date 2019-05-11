@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text=""
+        android:hint="First value"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="132dp"/>
+
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text=""
+        android:hint="Second value"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="218dp"/>
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="addition"
+        android:text="+"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="354dp" />
+
+    <Button
+        android:id="@+id/BtnMinus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="subtraction"
+        android:text="-"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="354dp" />
+    <Button
+        android:id="@+id/BtnMultiply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="multiplication"
+        android:text="*"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="354dp" />
+
+    <Button
+        android:id="@+id/BtnDivide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="division"
+        android:text="/"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="430dp" />
+
+
+</LinearLayout>
+
